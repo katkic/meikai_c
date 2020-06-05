@@ -14,7 +14,7 @@ int main(void)
             putchar(' ');  // 空白挿入用のループ。各行にlen - i個の空白を表示する
         }
         for (j = 1; j <= i; j++) {
-            putchar('*');  // *表示用のループ。各行にi個の'*'を表示
+            putchar('*');  // *表示用のループ。各行にi個の'*'
         }
         putchar('\n');
     }
